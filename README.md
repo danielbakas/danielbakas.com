@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Sitio Web para [danielbakas.com](https://www.danielbakas.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este repositorio se encontrará (temporalmente durante todo el mes de 
+diciembre un sitio web desarrollado para el proyecto final de la materia 
+Laboratorio de Aplicaciones Web impartida por el prof. Luis José González.
 
-## Available Scripts
+## Video Complementario
 
-In the project directory, you can run:
+A continuación se puede encontrar un video complementario a este repositorio 
+para la entrega: [Video](https://drive.google.com/file/d/1178QcNkdqFxNsFgkw2wqaVDDnfBBg_4t/view?usp=share_link)
 
-### `npm start`
+## Estructura
+La estructura de este proyecto es simple:
+* `MacOS`: Sistema Operativo de Desarrollo
+* `WebStorm`: Entorno de Desarrollo para JavaScript
+* `npm`: Ambiente de Servidores JavaScript
+* `React`: Biblioteca para construir Interfaces Gráficas en JavaScript
+* `create-react-app`: Biblioteca para comenzar proyectos de React de forma 
+  sencilla
+* `Cypress`: Biblioteca para Pruebas Automatizadas en el Buscador
+* `GitHub`: Herramienta para control de versionamiento
+* `GitHub Actions`: Herramienta para integración continua y despliegue 
+  automatizado
+* `Google Cloud App Engine`: Plataforma como Servicio para hostear 
+  Aplicaciones Web
+* `Google Domains`: Registro de Dominios Web de Alto Nivel y manejo de DNS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instrucciones para Iniciar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Requerimientos Básicos
+NOTA: Se asume que se cuenta con los siguientes requerimientos:
+* `node`: Versión ^19.1.0
+* `npm`/`npx`: Versión ^8.19.3
+* Un buscador web (Recomendación: Google Chrome)
+* Un entorno de desarrollo (Recomendación: Visual Studio Code o WebStorm)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Instrucciones
+1. Clonar este repositorio
+2. Instalar las dependencias:
+```js 
+npm i
+```
+3. Correr la aplicación:
+```js 
+npm start
+```
+4. Correr las pruebas de React:
+```js 
+npm test
+```
+5. Correr las pruebas de Cypress:
+```js 
+npx cypress open
+```
